@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div id="mocha">
+        <h1>Use the correct HTML tag to add a heading with the text "Devsnest"</h1>
+        &lt;h1&gt; <input id="heading" type="text"> &lt;/h1&gt;
+        <hr>
+
+        <h1>Clean up this document with proper end tags. </h1>
+        &lt;h1&gt;This is heading <input id="closeHeading" type="text">
+        <hr>
+
+        <h1>Use the correct HTML attribute, and CSS, to set the color of the paragraph to "blue"</h1>
+        &lt;p <input id="paraBlue" type="text"> &gt;This is paragraph &lt;p&gt;
+        <hr>
+
+        <button id="test">Test</button>
+
+    </div>
+
+
+    <script src="https://unpkg.com/chai/chai.js"></script>
+    <script src="https://unpkg.com/mocha/mocha.js"></script>
+    <script class="mocha-init">
+        mocha.setup("bdd");
+        mocha.checkLeaks();
+    </script>
+    <script src="../tests/app.spec.js"></script>
+</body>
+
+</html>
