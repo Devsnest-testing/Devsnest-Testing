@@ -6,7 +6,7 @@
 ## Insert a button using button tag.
 ## Insert a button using button of type text.
 ## Insert a button using button of type submit.
-## Add a dropdown using details tag .
+## Add a dropdown using details tag.
 ## Show an dialog using dialog tag.
 ## Add an box using div tag with ```Devsnest``` heading inside it.
 ## Add an navigation bar using nav tag.
@@ -16,14 +16,14 @@
 ## add an footer section in document using footer tag with some text.
 ## Add an span tag with some text.
 ## Add an input area using input tag.
-## Add an input area of type text .
-## Add an input area of type number .
-## Add an input area of type submit .
+## Add an input area of type text.
+## Add an input area of type number.
+## Add an input area of type submit.
 ## Add an label using label tag.
+## Add an unordered list with "coffee" and "tea" list item.
 ## Add meta data of name="description" and content="Free bootcamp", using meta tag.
 ## Add meta data of charset="UTF-8" using meta tag.
 ## Add an link tag to add external stylesheet.
-## Add an unordered list with "coffee" and "tea" list item.
 ## add an html form of method GET
 ## add an html form of method POST
 ## add an html form of target="_blank"
