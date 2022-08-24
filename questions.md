@@ -31,3 +31,9 @@
 ## Add an simple html table with two rows and three columns
 ## Add an html table with 2 rows and 2 columns of heading "month" and "saving" and data "January" and "$100"
 ## Create and html table using thead, tbody and tfoot tags with some random data
+## draw graphic using canvas tag
+## draw svg graphic using svg tag
+## add an video in web page using video tag
+## play an audio in web page using audio tag
+## embed an object within a HTML doc using object tag
+## play a youtube video on web page using iframe tag and src attribute
