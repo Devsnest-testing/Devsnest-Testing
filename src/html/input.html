@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Input</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div id="mocha">
+        <input />
+        <input type="text" />
+        <input type="number" />
+        <input type="submit" />
+        <button id="test">Test</button>
+    </div>
+
+    <script src="https://unpkg.com/chai/chai.js"></script>
+    <script src="https://unpkg.com/mocha/mocha.js"></script>
+    <script class="mocha-init">
+        mocha.setup("bdd");
+        mocha.checkLeaks();
+    </script>
+    <script src="../tests/input.spec.js"></script>
+</body>
+
+</html>

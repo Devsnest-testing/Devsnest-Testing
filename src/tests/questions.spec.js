@@ -1,11 +1,7 @@
 const { chai, mocha } = window;
 const { assert, expect } = chai;
 
-test.addEventListener('click', () => {
-    mocha.run();
-})
-
-
+const test = document.getElementById('test');
 const brTag = document.querySelector('br')
 const spanTag = document.querySelector('span')
 const inputTag = document.querySelector('input')
@@ -32,7 +28,12 @@ const formTagBlank = document.querySelector('form[target="_blank"]')
 const formTagInput = document.getElementsByTagName('form')[0].getElementsByTagName('input')
 const formTagButton = document.getElementsByTagName('form')[0].getElementsByTagName('button')
 
-describe("testing huehue", () => {
+
+test.addEventListener('click', () => {
+    mocha.run();
+})
+
+describe("testing........", () => {
     // Checking <br> tag 
     it('<br> should exists', async () => {
         assert.exists(brTag)
@@ -80,7 +81,6 @@ describe("testing huehue", () => {
         assert.equal(liTag[0].innerText, 'Coffee')
         assert.equal(liTag[1].innerText, 'Tea')
     })
-
 
     // Checking <header> tag
     it('<header> tag should exists', async () => {
