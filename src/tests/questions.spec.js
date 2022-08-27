@@ -27,6 +27,7 @@ const formTagPost = document.querySelector('form[method="post"]')
 const formTagBlank = document.querySelector('form[target="_blank"]')
 const formTagInput = document.getElementsByTagName('form')[0].getElementsByTagName('input')
 const formTagButton = document.getElementsByTagName('form')[0].getElementsByTagName('button')
+const detailsTag = document.querySelector('details')
 
 
 test.addEventListener('click', () => {
@@ -147,6 +148,11 @@ describe("testing........", () => {
         // console.log(formTagButton)
         assert.equal(formTagInput.length, 2)
         assert.equal(formTagButton.length, 1)
+    })
+
+    // Checking <details> tag
+    it('<details> tag should exists', async () => {
+        assert.exists(detailsTag)
     })
 
 })
