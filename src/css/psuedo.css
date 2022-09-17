@@ -1,0 +1,23 @@
+.p {
+  padding: 10px 8px;
+  background-color: red;
+  width: fit-content;
+  border-radius: 10px;
+}
+.p:hover {
+  background-color: cyan;
+  cursor: pointer;
+  color: blahsck;
+}
+
+.p::before {
+  background-color: cyan;
+}
+
+.p:focus {
+  background-color: green;
+}
+
+.p:active {
+  background-color: green;
+}

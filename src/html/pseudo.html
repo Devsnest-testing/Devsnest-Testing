@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Testing Questions</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css" />
+    <link rel="stylesheet" href="../css/psuedo.css">
+</head>
+
+<body>
+    <div id="mocha">
+
+        <p class="p">Hover over me</p>
+
+
+        <button id="test"
+            style="padding: 10px 20px; position: absolute; bottom: 300px; left: 600px; font-size: 20px; color: burlywood; background-color: black; cursor: pointer; border-radius: 10px; border: 2px solid burlywood; outline: none; transition: 0.5s; box-shadow: 0 0 10px 0 burlywood;"
+            onclick="this.style.backgroundColor = 'rgb(200, 205, 250)', this.style.color='#000'">
+            Test
+        </button>
+    </div>
+
+    <script src="https://unpkg.com/chai/chai.js"></script>
+    <script src="https://unpkg.com/mocha/mocha.js"></script>
+    <script class="mocha-init">
+        mocha.setup("bdd");
+        mocha.checkLeaks();
+    </script>
+    <script src="../tests/psuedo.spec.js"></script>
+</body>
+
+</html>
